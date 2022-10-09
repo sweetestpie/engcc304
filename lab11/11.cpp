@@ -6,10 +6,10 @@ char 	DetectOperator( char [] ) ;
 int		GetResult ( int , int ) ; 
 
 int main() {
-	int 	i ;
-	int  	result ;
-	char 	equation[100] ;
-	int 	opertype ;
+	int i ;
+	int  result ;
+	char equation[100] ;
+	int	opertype ;
 	printf( "Input : " ) ;
 	gets( equation ) ;
 	for( i = 0 ; i < strlen( equation ) ; i++ ) {

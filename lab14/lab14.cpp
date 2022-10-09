@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<string.h>
+
 struct Employee{
 	char Name[100] ;
 	int age ;
